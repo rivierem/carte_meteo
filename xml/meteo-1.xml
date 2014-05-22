@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<meteo>
+		<previsions>
+			<prevision date="2014-05-19" nom="aujourd’hui">
+				<ville id="CILAOS" temperature_mini="14" temperature_maxi="19" temps="04" vent_direction="SSW" vent_force="17" vent_rafales="22" humidite="75" pluie_3h="0" pluie_24h="2"/>
+				<ville id="LA PLAINE DES CAFRES" temperature_mini="8" temperature_maxi="13" temps="03" vent_direction="SSW" vent_force="16" vent_rafales="21" humidite="80" pluie_3h="2" pluie_24h="14"/>
+				<ville id="LA PLAINE DES PALMISTES" temperature_mini="3" temperature_maxi="13" temps="03" vent_direction="N" vent_force="9" vent_rafales="9" humidite="57" pluie_3h="2" pluie_24h="11"/>
+				<ville id="LE PORT" temperature_mini="19" temperature_maxi="28" temps="03" vent_direction="N" vent_force="9" vent_rafales="9" humidite="57" pluie_3h="0" pluie_24h="11"/>
+				<ville id="LE TAMPON" temperature_mini="4" temperature_maxi="9" temps="07" vent_direction="SSW" vent_force="18" vent_rafales="18" humidite="57" pluie_3h="2" pluie_24h="13"/>
+				<ville id="SAINT-ANDRE" temperature_mini="20" temperature_maxi="30" temps="03" vent_direction="N" vent_force="9" vent_rafales="9" humidite="57" pluie_3h="0" pluie_24h="13"/>
+				<ville id="SAINT-BENOIT" temperature_mini="20" temperature_maxi="30" temps="03" vent_direction="N" vent_force="9" vent_rafales="9" humidite="57" pluie_3h="0" pluie_24h="13"/>
+				<ville id="SAINT-DENIS" temperature_mini="19" temperature_maxi="28" temps="03" vent_direction="N" vent_force="9" vent_rafales="9" humidite="57" pluie_3h="0" pluie_24h="13"/>
+				<ville id="SAINT-LEU" temperature_mini="20" temperature_maxi="26" temps="07" vent_direction="SSW" vent_force="18" vent_rafales="18" humidite="57" pluie_3h="0" pluie_24h="2"/>
+				<ville id="SAINT-LOUIS" temperature_mini="19" temperature_maxi="25" temps="07" vent_direction="SSW" vent_force="18" vent_rafales="18" humidite="57" pluie_3h="0" pluie_24h="3"/>
+				<ville id="SAINT-PAUL" temperature_mini="19" temperature_maxi="28" temps="03" vent_direction="N" vent_force="9" vent_rafales="9" humidite="57" pluie_3h="0" pluie_24h="2"/>
+				<ville id="SAINT-PHILIPPE" temperature_mini="13" temperature_maxi="18" temps="07" vent_direction="SSW" vent_force="18" vent_rafales="18" humidite="57" pluie_3h="1" pluie_24h="4"/>
+				<ville id="SAINT-PIERRE" temperature_mini="20" temperature_maxi="25" temps="07" vent_direction="SSW" vent_force="18" vent_rafales="18" humidite="57" pluie_3h="0" pluie_24h="3"/>
+				<ville id="SAINTE-MARIE" temperature_mini="19" temperature_maxi="28" temps="03" vent_direction="N" vent_force="9" vent_rafales="9" humidite="57" pluie_3h="0" pluie_24h="3"/>
+				<ville id="SAINTE-ROSE" temperature_mini="20" temperature_maxi="30" temps="03" vent_direction="N" vent_force="9" vent_rafales="9" humidite="57" pluie_3h="0" pluie_24h="3"/>
+			</prevision>
+			<prevision date="2014-05-20" nom="demain">
+				<ville id="CILAOS" temperature_mini="14" temperature_maxi="19" temps="04" vent_direction="SE" vent_force="9"/>
+				<ville id="LA PLAINE DES CAFRES" temperature_mini="8" temperature_maxi="13" temps="04" vent_direction="SE" vent_force="7"/>
+				<ville id="LA PLAINE DES PALMISTES" temperature_mini="3" temperature_maxi="10" temps="04" vent_direction="SE" vent_force="11"/>
+				<ville id="LE PORT" temperature_mini="20" temperature_maxi="26" temps="06" vent_direction="SE" vent_force="12"/>
+				<ville id="LE TAMPON" temperature_mini="4" temperature_maxi="9" temps="03" vent_direction="SE" vent_force="10"/>
+				<ville id="SAINT-ANDRE" temperature_mini="20" temperature_maxi="27" temps="04" vent_direction="SE" vent_force="11"/>
+				<ville id="SAINT-BENOIT" temperature_mini="20" temperature_maxi="27" temps="04" vent_direction="SE" vent_force="11"/>
+				<ville id="SAINT-DENIS" temperature_mini="20" temperature_maxi="26" temps="06" vent_direction="SE" vent_force="12"/>
+				<ville id="SAINT-LEU" temperature_mini="20" temperature_maxi="25" temps="03" vent_direction="SE" vent_force="12"/>
+				<ville id="SAINT-LOUIS" temperature_mini="19" temperature_maxi="24" temps="03" vent_direction="SE" vent_force="12"/>
+				<ville id="SAINT-PAUL" temperature_mini="20" temperature_maxi="26" temps="06" vent_direction="SE" vent_force="12"/>
+				<ville id="SAINT-PHILIPPE" temperature_mini="13" temperature_maxi="18" temps="03" vent_direction="SE" vent_force="10"/>
+				<ville id="SAINT-PIERRE" temperature_mini="19" temperature_maxi="25" temps="03" vent_direction="SE" vent_force="11"/>
+				<ville id="SAINTE-MARIE" temperature_mini="20" temperature_maxi="26" temps="06" vent_direction="SE" vent_force="12"/>
+				<ville id="SAINTE-ROSE" temperature_mini="20" temperature_maxi="27" temps="04" vent_direction="SE" vent_force="11"/>
+			</prevision>
+			<prevision date="2014-05-21" nom="mercredi">
+				<ville id="CILAOS" temperature_mini="14" temperature_maxi="19" temps="02" vent_direction="E" vent_force="6"/>
+				<ville id="LA PLAINE DES CAFRES" temperature_mini="8" temperature_maxi="13" temps="03" vent_direction="ESE" vent_force="5"/>
+				<ville id="LA PLAINE DES PALMISTES" temperature_mini="3" temperature_maxi="10" temps="03" vent_direction="ESE" vent_force="9"/>
+				<ville id="LE PORT" temperature_mini="20" temperature_maxi="26" temps="03" vent_direction="ESE" vent_force="11"/>
+				<ville id="LE TAMPON" temperature_mini="4" temperature_maxi="9" temps="02" vent_direction="E" vent_force="7"/>
+				<ville id="SAINT-ANDRE" temperature_mini="20" temperature_maxi="27" temps="03" vent_direction="ESE" vent_force="9"/>
+				<ville id="SAINT-BENOIT" temperature_mini="20" temperature_maxi="27" temps="03" vent_direction="ESE" vent_force="9"/>
+				<ville id="SAINT-DENIS" temperature_mini="20" temperature_maxi="26" temps="03" vent_direction="ESE" vent_force="11"/>
+				<ville id="SAINT-LEU" temperature_mini="20" temperature_maxi="26" temps="02" vent_direction="E" vent_force="7"/>
+				<ville id="SAINT-LOUIS" temperature_mini="19" temperature_maxi="25" temps="02" vent_direction="E" vent_force="7"/>
+				<ville id="SAINT-PAUL" temperature_mini="20" temperature_maxi="26" temps="03" vent_direction="ESE" vent_force="11"/>
+				<ville id="SAINT-PHILIPPE" temperature_mini="13" temperature_maxi="18" temps="02" vent_direction="E" vent_force="7"/>
+				<ville id="SAINT-PIERRE" temperature_mini="20" temperature_maxi="26" temps="02" vent_direction="E" vent_force="7"/>
+				<ville id="SAINTE-MARIE" temperature_mini="20" temperature_maxi="26" temps="03" vent_direction="ESE" vent_force="11"/>
+				<ville id="SAINTE-ROSE" temperature_mini="20" temperature_maxi="27" temps="03" vent_direction="ESE" vent_force="9"/>
+			</prevision>
+			<prevision date="2014-05-22" nom="jeudi">
+				<ville id="CILAOS" temperature_mini="13" temperature_maxi="19" temps="01" vent_direction="SE" vent_force="5"/>
+				<ville id="LA PLAINE DES CAFRES" temperature_mini="7" temperature_maxi="14" temps="02" vent_direction="SE" vent_force="3"/>
+				<ville id="LA PLAINE DES PALMISTES" temperature_mini="2" temperature_maxi="10" temps="02" vent_direction="SE" vent_force="6"/>
+				<ville id="LE PORT" temperature_mini="19" temperature_maxi="27" temps="02" vent_direction="SE" vent_force="7"/>
+				<ville id="LE TAMPON" temperature_mini="4" temperature_maxi="10" temps="01" vent_direction="SE" vent_force="6"/>
+				<ville id="SAINT-ANDRE" temperature_mini="19" temperature_maxi="27" temps="02" vent_direction="SE" vent_force="6"/>
+				<ville id="SAINT-BENOIT" temperature_mini="19" temperature_maxi="27" temps="02" vent_direction="SE" vent_force="6"/>
+				<ville id="SAINT-DENIS" temperature_mini="19" temperature_maxi="27" temps="02" vent_direction="SE" vent_force="7"/>
+				<ville id="SAINT-LEU" temperature_mini="20" temperature_maxi="26" temps="01" vent_direction="SE" vent_force="6"/>
+				<ville id="SAINT-LOUIS" temperature_mini="19" temperature_maxi="25" temps="01" vent_direction="SE" vent_force="6"/>
+				<ville id="SAINT-PAUL" temperature_mini="19" temperature_maxi="27" temps="02" vent_direction="SE" vent_force="7"/>
+				<ville id="SAINT-PHILIPPE" temperature_mini="13" temperature_maxi="19" temps="01" vent_direction="SE" vent_force="6"/>
+				<ville id="SAINT-PIERRE" temperature_mini="19" temperature_maxi="26" temps="01" vent_direction="SE" vent_force="6"/>
+				<ville id="SAINTE-MARIE" temperature_mini="19" temperature_maxi="27" temps="02" vent_direction="SE" vent_force="7"/>
+				<ville id="SAINTE-ROSE" temperature_mini="19" temperature_maxi="27" temps="02" vent_direction="SE" vent_force="6"/>
+			</prevision>
+			<prevision date="2014-05-23" nom="vendredi">
+				<ville id="CILAOS" temperature_mini="14" temperature_maxi="19" temps="02" vent_direction="SE" vent_force="12"/>
+				<ville id="LA PLAINE DES CAFRES" temperature_mini="9" temperature_maxi="14" temps="02" vent_direction="SE" vent_force="9"/>
+				<ville id="LA PLAINE DES PALMISTES" temperature_mini="3" temperature_maxi="10" temps="02" vent_direction="SE" vent_force="13"/>
+				<ville id="LE PORT" temperature_mini="19" temperature_maxi="27" temps="02" vent_direction="SE" vent_force="14"/>
+				<ville id="LE TAMPON" temperature_mini="4" temperature_maxi="10" temps="14" vent_direction="SE" vent_force="14"/>
+				<ville id="SAINT-ANDRE" temperature_mini="20" temperature_maxi="27" temps="02" vent_direction="SE" vent_force="13"/>
+				<ville id="SAINT-BENOIT" temperature_mini="20" temperature_maxi="27" temps="02" vent_direction="SE" vent_force="13"/>
+				<ville id="SAINT-DENIS" temperature_mini="19" temperature_maxi="27" temps="02" vent_direction="SE" vent_force="14"/>
+				<ville id="SAINT-LEU" temperature_mini="20" temperature_maxi="26" temps="02" vent_direction="SE" vent_force="15"/>
+				<ville id="SAINT-LOUIS" temperature_mini="19" temperature_maxi="25" temps="02" vent_direction="SE" vent_force="15"/>
+				<ville id="SAINT-PAUL" temperature_mini="19" temperature_maxi="27" temps="02" vent_direction="SE" vent_force="14"/>
+				<ville id="SAINT-PHILIPPE" temperature_mini="13" temperature_maxi="19" temps="14" vent_direction="SE" vent_force="14"/>
+				<ville id="SAINT-PIERRE" temperature_mini="19" temperature_maxi="25" temps="14" vent_direction="SE" vent_force="14"/>
+				<ville id="SAINTE-MARIE" temperature_mini="19" temperature_maxi="27" temps="02" vent_direction="SE" vent_force="14"/>
+				<ville id="SAINTE-ROSE" temperature_mini="20" temperature_maxi="27" temps="02" vent_direction="SE" vent_force="13"/>
+			</prevision>
+			<prevision date="2014-05-24" nom="samedi">
+				<ville id="CILAOS" temperature_mini="14" temperature_maxi="18" temps="04" vent_direction="ESE" vent_force="12"/>
+				<ville id="LA PLAINE DES CAFRES" temperature_mini="8" temperature_maxi="13" temps="04" vent_direction="ESE" vent_force="9"/>
+				<ville id="LA PLAINE DES PALMISTES" temperature_mini="3" temperature_maxi="9" temps="04" vent_direction="SE" vent_force="16"/>
+				<ville id="LE PORT" temperature_mini="20" temperature_maxi="26" temps="03" vent_direction="ESE" vent_force="19"/>
+				<ville id="LE TAMPON" temperature_mini="4" temperature_maxi="9" temps="04" vent_direction="ESE" vent_force="14"/>
+				<ville id="SAINT-ANDRE" temperature_mini="20" temperature_maxi="26" temps="04" vent_direction="SE" vent_force="16"/>
+				<ville id="SAINT-BENOIT" temperature_mini="20" temperature_maxi="26" temps="04" vent_direction="SE" vent_force="16"/>
+				<ville id="SAINT-DENIS" temperature_mini="20" temperature_maxi="26" temps="03" vent_direction="ESE" vent_force="19"/>
+				<ville id="SAINT-LEU" temperature_mini="20" temperature_maxi="25" temps="03" vent_direction="ESE" vent_force="16"/>
+				<ville id="SAINT-LOUIS" temperature_mini="19" temperature_maxi="24" temps="03" vent_direction="ESE" vent_force="16"/>
+				<ville id="SAINT-PAUL" temperature_mini="20" temperature_maxi="26" temps="03" vent_direction="ESE" vent_force="19"/>
+				<ville id="SAINT-PHILIPPE" temperature_mini="13" temperature_maxi="18" temps="04" vent_direction="ESE" vent_force="14"/>
+				<ville id="SAINT-PIERRE" temperature_mini="19" temperature_maxi="24" temps="04" vent_direction="ESE" vent_force="15"/>
+				<ville id="SAINTE-MARIE" temperature_mini="20" temperature_maxi="26" temps="03" vent_direction="ESE" vent_force="19"/>
+				<ville id="SAINTE-ROSE" temperature_mini="20" temperature_maxi="26" temps="04" vent_direction="SE" vent_force="16"/>
+			</prevision>
+			<prevision date="2014-05-25" nom="dimanche">
+				<ville id="CILAOS" temperature_mini="14" temperature_maxi="18" temps="03" vent_direction="ESE" vent_force="8"/>
+				<ville id="LA PLAINE DES CAFRES" temperature_mini="10" temperature_maxi="13" temps="04" vent_direction="ESE" vent_force="7"/>
+				<ville id="LA PLAINE DES PALMISTES" temperature_mini="3" temperature_maxi="9" temps="04" vent_direction="SE" vent_force="11"/>
+				<ville id="LE PORT" temperature_mini="18" temperature_maxi="26" temps="03" vent_direction="ESE" vent_force="13"/>
+				<ville id="LE TAMPON" temperature_mini="4" temperature_maxi="9" temps="04" vent_direction="ESE" vent_force="10"/>
+				<ville id="SAINT-ANDRE" temperature_mini="20" temperature_maxi="26" temps="04" vent_direction="SE" vent_force="11"/>
+				<ville id="SAINT-BENOIT" temperature_mini="20" temperature_maxi="26" temps="04" vent_direction="SE" vent_force="11"/>
+				<ville id="SAINT-DENIS" temperature_mini="18" temperature_maxi="26" temps="03" vent_direction="ESE" vent_force="13"/>
+				<ville id="SAINT-LEU" temperature_mini="18" temperature_maxi="25" temps="12" vent_direction="ESE" vent_force="11"/>
+				<ville id="SAINT-LOUIS" temperature_mini="17" temperature_maxi="24" temps="12" vent_direction="ESE" vent_force="11"/>
+				<ville id="SAINT-PAUL" temperature_mini="18" temperature_maxi="26" temps="03" vent_direction="ESE" vent_force="13"/>
+				<ville id="SAINT-PHILIPPE" temperature_mini="13" temperature_maxi="18" temps="04" vent_direction="ESE" vent_force="10"/>
+				<ville id="SAINT-PIERRE" temperature_mini="15" temperature_maxi="24" temps="03" vent_direction="ESE" vent_force="11"/>
+				<ville id="SAINTE-MARIE" temperature_mini="18" temperature_maxi="26" temps="03" vent_direction="ESE" vent_force="13"/>
+				<ville id="SAINTE-ROSE" temperature_mini="20" temperature_maxi="26" temps="04" vent_direction="SE" vent_force="11"/>
+			</prevision>
+			<prevision date="2014-05-26" nom="lundi">
+			</prevision>
+		</previsions>
+	</meteo>
