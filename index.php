@@ -29,11 +29,13 @@
 				</div>
 				<div classe="container col-lg-5">
 					<h2>Carte de la Réunion</h2>
+					<hr>
 					<?php include('day_list.php'); ?>
 					<?php day_list(); ?>
 					<hr>
 					<div id="map_reunion">
-						<span class="temp_int cilaos">30°</span>
+						<?php display_meteo(); ?>
+						<!-- <span class="temp_int cilaos">30°</span> -->
 					
 					</div>
 				</div>
