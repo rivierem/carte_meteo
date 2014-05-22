@@ -11,40 +11,51 @@ function day_list(){
 	
 	// echo '<br />Current day : '.$dayNum.'<br />';
 
-	echo '<form name="select_day" action="'.$_PHP_SELF.'" method="GET">';
+	echo '<form name="select_day" action="'.$_SERVER['PHP_SELF'].'" method="GET">';
 
 		echo '<select name="dayvalue" onchange="this.form.submit()">',"\n";
 		$dayvalue = 0;
 		foreach ($previsions->prevision as $prevision) {
-			if (isset($_GET['dayvalue'])) {
-				$dayNum = $_GET['dayvalue'];
+			
+			// instancie ta variable pour ne pas avoir d'erreur lorsque tu l'apelle
+		 	$dayNum = null;
+			
+			// vérifie que la variable est numérique en plus de vérifier si elle existe
+			if (isset($_GET['dayvalue']) && is_numeric($_GET['dayvalue'])) {
+				//lorsque tu reçois une valeur par l'url elle est considéré comme une string, si tu veux utilisé 3 = tu dois lui spécifier que c'est un integer
+				$dayNum = intval($_GET['dayvalue']);
 			}
 		 		$dayName = $prevision['nom'];
 		 		$dayvalue++;
+		 		// instancie ta variable pour ne pas avoir d'erreur lorsque tu l'apelle
+		 		$selected = null;
+
 		 		if($dayNum === $dayvalue){ $selected = ' selected="selected"';}
-		 		echo "\t".'<option value="'. $dayvalue .'"'. $selected .'>'. $dayName .' - '. $dayvalue .'</option>'."\n";
+		 		echo "\t".'<option value="'. $dayvalue .'" '. $selected .' data-num="dayValue'.$dayvalue.' - dayNum'.$dayNum.'">'. $dayName .' - '. $dayvalue .'</option>'."\n";
 
 		 		// <option value="January"<?=$row['month'] == 'January' ? ' selected="selected"' : '';>January</option>
 		}
 		echo '</select>',"\n";
 	echo '</form>';
 
-	$test = $_GET['dayvalue'];
-	foreach ($previsions->prevision as $prevision ) {
-		$prevision_table[] = $prevision;
+	// vérifie que la variable est numérique en plus de vérifier si elle existe
+	if (isset($_GET['dayvalue']) && is_numeric($_GET['dayvalue'])) {
+		$test = $_GET['dayvalue'];
+		foreach ($previsions->prevision as $prevision ) {
+			$prevision_table[] = $prevision;
+		}
+		$count = count($prevision_table);
+		for ($i=0; $i < $count; $i++) {
+
+			// echo 'DAY VALUE : '.$test.'<br />';
+			echo '<br />'.$prevision_table[$test]->ville[$i]['id'];
+			echo '<br />'.$prevision_table[$test]->ville[$i]['temperature_maxi'];
+		}
+			// echo '<pre>';
+			// print_r($prevision_table);
+			// echo '</pre>';
+
 	}
-	$count = count($prevision_table);
-	for ($i=0; $i < $count; $i++) {
-
-		// echo 'DAY VALUE : '.$test.'<br />';
-		echo '<br />'.$prevision_table[$test]->ville[$i]['id'];
-		echo '<br />'.$prevision_table[$test]->ville[$i]['temperature_maxi'];
-	}
-		// echo '<pre>';
-		// print_r($prevision_table);
-		// echo '</pre>';
-
-
 
 
 
